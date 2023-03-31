@@ -1,0 +1,32 @@
+.barra-lateral{
+    width: 250px;
+    height: 100%; /*cambiar por "%" al introducir al div padre*/
+    background-color: #3BB5AD;
+
+}
+
+.barra-lateral > div {
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.barra-lateral > div > a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .2s;
+}
+
+.barra-lateral > div > a:hover {
+    color: black;
+    background-color: #D6E8F0;
+}
